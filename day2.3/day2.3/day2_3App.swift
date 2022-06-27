@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct day2_3App: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct ContentView: View {
+    
+    var body: some View {
+        VStack{
+                   
+            TextField("Type your name here", text: $name)
+               }
     }
-}
+    }
+
